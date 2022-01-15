@@ -4,8 +4,10 @@ import {SiEthereum} from "react-icons/si";
 import {BsInfoCircle} from "react-icons/bs";
 import { Loader } from "./";
 import { TransactionContext } from "../context/TransactionsContext";
-const commonStyles =
-  "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
+import { shortenAddress } from "../utils/shortenAddress";
+
+const companyCommonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
+
 
 const Input = ({ placeholder, name, type, value, handleChange }) => (
   <input
@@ -54,17 +56,21 @@ const Welcome = () => {
             </p>
           </button>}
 
-          <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
-            <div className={`rounded-tl-2xl ${commonStyles}`}>Reliable </div>
-            <div className={commonStyles}>Secure</div>
-            <div className={`rounded-tr-2xl ${commonStyles}`}>
-              Ethereum-Based
+            <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
+            <div className={`rounded-tl-2xl ${companyCommonStyles}`}>
+              Reliability
             </div>
-            <div className={`rounded-bl-2xl ${commonStyles}`}>
-              Web 3.0 Ready
+            <div className={companyCommonStyles}>Security</div>
+            <div className={`sm:rounded-tr-2xl ${companyCommonStyles}`}>
+              Ethereum
             </div>
-            <div className={commonStyles}>Blockchain-Safe</div>
-            <div className={`rounded-br-2xl ${commonStyles}`}>Low-Fees</div>
+            <div className={`sm:rounded-bl-2xl ${companyCommonStyles}`}>
+              Web 3.0
+            </div>
+            <div className={companyCommonStyles}>Low Fees</div>
+            <div className={`rounded-br-2xl ${companyCommonStyles}`}>
+              Blockchain
+            </div>
           </div>
         </div>
 
@@ -79,7 +85,7 @@ const Welcome = () => {
               </div>
               <div>
                 <p className="text-white font-light text-xs ">
-                  { currentAccount}
+                  { shortenAddress( currentAccount)}
                 </p>
                  <p className="text-white font-semibold text-lg mt-1 ">
                 Wallet Address
@@ -94,9 +100,9 @@ const Welcome = () => {
             <Input placeholder="Enter Message" name="message" type="text" handleChange={handleChange} />
             
             <div className="h-[1-px] w-full bg-gray-400 my-2" />
-            {false
+           {isLoading
               ?( <Loader />
-              ): ( 
+             ) : (
                 <button
                   type="button"
                   onClick={handleSubmit}
