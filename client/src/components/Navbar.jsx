@@ -19,7 +19,7 @@ const Navbar = () => {
                 
                 <img src={Logo} alt="logo" className="w-32 cursor-pointer" />
             </div>
-                <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
+                <ul className="text-#0A0D1C; md:flex hidden list-none flex-row justify-between items-center flex-initial font-bold">
                    
                     {[" Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
                         <NavbarItem key={item + index} title={item} />

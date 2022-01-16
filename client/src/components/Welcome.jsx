@@ -6,7 +6,7 @@ import { Loader } from "./";
 import { TransactionContext } from "../context/TransactionsContext";
 import { shortenAddress } from "../utils/shortenAddress";
 
-const companyCommonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
+const companyCommonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-bold text-#0A0D1C ;";
 
 
 const Input = ({ placeholder, name, type, value, handleChange }) => (
@@ -42,7 +42,7 @@ const Welcome = () => {
             Send Your Crypto
             <br /> Anywhere across the World{" "}
           </h1>
-          <p className="text-left mt-5 text-white font-light md: w-9/12 w-11/12 text-base">
+          <p className="text-left mt-5 text-#0A0D1C; font-bold md: w-9/12 w-11/12 text-base">
             Your Money Endless Possibility. Buy and Sell Cryptocurrencies on
             QuicKoin.
           </p>
@@ -51,7 +51,7 @@ const Welcome = () => {
             type="button"
             onClick={connectWallet}
             className=" flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-full cursor-pointer hover:bg-[#2546bd]">
-            <p className="text-white text-base font-semibold ">
+            <p className="text-white text-base font-bold ">
               Connect Wallet
             </p>
           </button>}
@@ -74,20 +74,20 @@ const Welcome = () => {
           </div>
         </div>
 
-        <div className="flex flex-call flex-1 items-center justify-start w-full md:-0 mt-10">
+         <div className="flex flex-col flex-1 items-center justify-start w-full mf:mt-0 mt-10">
           <div className="p-3 justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card white-glassmorphism ">
             <div className="flex justify-between flex-col w-full h-full">
               <div className="flex justify-between flex-start">
-                <div className="w-10 h-10 rounded-full border-2 border-silver flex justify-center items-center">
-                  <SiEthereum fontSize={21} color="silver" />
+                <div className="w-10 h-10 rounded-full border-2 border-white flex justify-center items-center">
+                  <SiEthereum fontSize={21} color="white" />
                 </div>
-                <BsInfoCircle fontSize={21} color="gold"/>
+                <BsInfoCircle fontSize={21} color="white"/>
               </div>
               <div>
-                <p className="text-white font-light text-xs ">
+                <p className="text-#0A0D1C; font-light text-xs ">
                   { shortenAddress( currentAccount)}
                 </p>
-                 <p className="text-white font-semibold text-lg mt-1 ">
+                 <p className="text-#0A0D1C; font-bold text-lg mt-1 ">
                 Wallet Address
                 </p>
               </div>
@@ -106,7 +106,7 @@ const Welcome = () => {
                 <button
                   type="button"
                   onClick={handleSubmit}
-                   className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] hover:bg-[#3d4f7c] rounded-full cursor-pointer"
+                   className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] bg-[#2952e3] rounded-full cursor-pointer"
                 >Send Now </button>
               )}
           </div>
