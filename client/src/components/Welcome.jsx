@@ -3,7 +3,7 @@ import { AiFillPlayCircle } from "react-icons/ai";
 import {SiEthereum} from "react-icons/si";
 import {BsInfoCircle} from "react-icons/bs";
 import { Loader } from "./";
-import { TransactionContext } from "../context/TransactionsContext";
+import { TransactionContext } from "../context/TransactionContext";
 import { shortenAddress } from "../utils/shortenAddress";
 
 const companyCommonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-bold text-#0A0D1C ;";
@@ -37,7 +37,7 @@ const Welcome = () => {
     <div className="flex w-full justify-center">
       <div className="flex md:flex-row flex-col items-start justify-between  md:p-20 py-12 px-4 ">
         <div className="flex flex-1 justify-start flex-col md:mr-10">
-          <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
+          <h1 className="text-3xl sm:text-5xl text-blue text-gradient py-1 font-bold">
             {" "}
             Send Your Crypto
             <br /> Anywhere across the World{" "}
@@ -93,7 +93,7 @@ const Welcome = () => {
               </div>
             </div>
           </div>
-           <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism">
+           <div className="text-white  p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism">
             <Input placeholder="Address To" name="addressTo" type="text" handleChange={handleChange} />
             <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange} />
             <Input placeholder="Keyword (Gif)" name="keyword" type="text" handleChange={handleChange} />

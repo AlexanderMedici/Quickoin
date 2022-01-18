@@ -86,6 +86,7 @@ export const TransactionProvider = ({ children }) => {
     }
   };
 
+
   const connectWallet = async () => {
     try {
       if (!ethereum) return alert("Please install MetaMask.");

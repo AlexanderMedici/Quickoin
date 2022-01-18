@@ -1,7 +1,8 @@
 import React from 'react';
 import { HiMenuAlt4 } from 'react-icons/hi';
 import {AiOutlineClose} from 'react-icons/ai';
-import Logo from '../../images/logo.png';
+// import Logo from '../../images/logo.png';
+import Logo2 from "../../images/logo2.png"
 
 
 // NavbarItem component that takes in title and classProps and returns a <li> styled</li> title
@@ -17,14 +18,14 @@ const Navbar = () => {
         return (
             <nav className="w-full flex md: justify-center"><div className="md:flex-[0.5] flex-initial justify-center items-center">
                 
-                <img src={Logo} alt="logo" className="w-32 cursor-pointer" />
+                <img src={Logo2} alt="logo" className="w-32 cursor-pointer" />
             </div>
                 <ul className="text-#0A0D1C; md:flex hidden list-none flex-row justify-between items-center flex-initial font-bold">
                    
                     {[" Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
                         <NavbarItem key={item + index} title={item} />
                     ))}
-                    <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
+                    <li className=" text-white bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
                         Login
                     </li>
                 </ul>
