@@ -8,7 +8,7 @@ Solidty is used to write the smart contracts that work with etherum network.
 
 <h3 align="left">
 Use Case<project-name></h3>
-This app is essinally a virtual atm in a sense, send and receive crypto from anywhere simply have a recipient and a receiver simple secure with a  way to keep track of all transactions. 
+This app is simmilar to an atm in a sense, send and receive crypto from anywhere simply have a recipient and a receiver simple secure with a  way to keep track of all transactions. 
 
  <project-description></p>
 
