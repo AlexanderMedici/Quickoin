@@ -56,6 +56,8 @@ For running the server file you can use this command.
 ### `npm run serve`
 
 ## Built With
+ 
+- <a href="https://developer.mozilla.org/en-US/docs/Web/javascript"><img src="https://img.shields.io/badge/Javascript-Made with-white?labelColor=green&style=for-the-badge&link=https://developer.mozilla.org/en-US/docs/Web/javascript" alt="Javascript" /></a>
 - <a href="https://tailwindcss.com/docs/guides/create-react-app"><img src="https://img.shields.io/badge/TailwindCss-Made with-white?labelColor=green&style=for-the-badge&link=https://tailwindcss.com/docs/guides/create-react-app" alt="TailwindCss" /></a>
 - <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidty-Made with-white?labelColor=green&style=for-the-badge&link=https://soliditylang.org/" alt="Solidty" /></a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-Made with-white?labelColor=green&style=for-the-badge&link=https://developer.mozilla.org/en-US/docs/Web/HTML" alt="HTML" /></a>
