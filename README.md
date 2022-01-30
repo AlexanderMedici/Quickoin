@@ -78,6 +78,10 @@ For running the server file you can use this command.
 - [Email](mailto:contactimedici@gmail.com?subject=Hi "Hi!")
 - [Website]("Welcome")
 
+ 
+## Contact Me
+
+<a href="https://www.linkedin.com/in/https://www.linkedin.com/in/alexmedici/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>  <a href="mailto:contactimedici@gmail.com"><img src=https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/email_me_button_icon_151852.svg /></a>
 ## 🤝 Support
 
 Contributions, issues, and feature requests are welcome!
