@@ -62,7 +62,8 @@ For running the server file you can use this command.
 - <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidty-Made with-white?labelColor=green&style=for-the-badge&link=https://soliditylang.org/" alt="Solidty" /></a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-Made with-white?labelColor=green&style=for-the-badge&link=https://developer.mozilla.org/en-US/docs/Web/HTML" alt="HTML" /></a>
 - <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-Made with-white?labelColor=green&style=for-the-badge&link=https://vitejs.dev/" alt="Vite" /></a>
-- <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-Made with-white?labelColor=green&style=for-the-badge&link=https://reactjs.org/" alt="React" /></a> - <a href="https://docs.ethhub.io/using-ethereum/test-networks/"><img src="https://img.shields.io/badge/Ropsten Test Network-Made with-white?labelColor=green&style=for-the-badge&link=https://docs.ethhub.io/using-ethereum/test-networks/" alt="Ropsten Test Network" /></a>
+- <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-Made with-white?labelColor=green&style=for-the-badge&link=https://reactjs.org/" alt="React" /></a> 
+- <a href="https://docs.ethhub.io/using-ethereum/test-networks/"><img src="https://img.shields.io/badge/Ropsten Test Network-Made with-white?labelColor=green&style=for-the-badge&link=https://docs.ethhub.io/using-ethereum/test-networks/" alt="Ropsten Test Network" /></a>
 
  
 
