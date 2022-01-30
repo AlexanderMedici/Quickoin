@@ -2,14 +2,20 @@
 
 <h1 align="center">Quickoin<project-name></h1>
 
-<p align="center">Cryptocurrency is a challenge to our notions of money and stored economic value. This app is meant to be an aid by simplifying the payment process, Connect your metamask account to this site and send crypto to anywhere in the world. 
-Solidty is used to write the smart contracts that work with etherum network. 
+<p align="left">Cryptocurrency is a challenge to our notions of money and stored economic value. This app is meant to simplify the payment process, Connect your metamask account to this site and send crypto to anywhere in the world. Lower gas fees allow for affordable transactions. Solidty is used to write the smart contracts that work with etherum blockchain network.</p>
  
 
 <h3 align="left">
 Use Case<project-name></h3>
-This app is simmilar to an atm in a sense, send and receive crypto from anywhere simply have a recipient and a receiver simple secure with a  way to keep track of all transactions. 
+This app is simmilar to an atm in a sense, send and receive crypto from anywhere simply have a recipient and a receiver simple secure with a  way to keep track of all transactions. Below  are just a few benefits: <br/>
+ <ul>
+ <li><b>Safer payments.</b> Payments within the blockchain network are transparent, secure, and irreversible. Moreover, they are anonymous. This combination will almost completely eliminate the risk of fraud. Source: https://cprimestudios.com/blog/how-create-easy-use-cryptocurrency-wallet-app</li>
+   <li><b>Speeding up international transactions.</b> It still takes a long time to make international payments as each intermediary bank checks the transaction data and thus delays the receipt of the payment. The blockchain network is transparent and secure, so cryptocurrencies can be sent and received almost instantly. Source: https://cprimestudios.com/blog/how-create-easy-use-cryptocurrency-wallet-app</li>
+   <li><b>No governmental control.</b> This is a rather dubious advantage since cryptocurrencies in the hands of cybercriminals and lack of control is not the best scenario. However, blockchain enables companies to earn money honestly and allows users to spend it at their discretion. Source: https://cprimestudios.com/blog/how-create-easy-use-cryptocurrency-wallet-app</li>
+   <li><b>Attracting modern users.</b> The majority of the public is not yet ready for the full adoption of cryptocurrencies, but a number of progressive users have long appreciated their benefits. If your business is aimed at tech-savvy users, they will appreciate the idea of a custom cryptocurrency wallet. Source: https://cprimestudios.com/blog/how-create-easy-use-cryptocurrency-wallet-app</li>
+ </ul>
 
+ 
  <project-description></p>
 
 ## Links
@@ -50,14 +56,17 @@ For running the server file you can use this command.
 ### `npm run serve`
 
 ## Built With
-- JavaScript
-- Vite
-- HTML
-- T
+- <a href="https://tailwindcss.com/docs/guides/create-react-app"><img src="https://img.shields.io/badge/TailwindCss-Made with-white?labelColor=green&style=for-the-badge&link=https://tailwindcss.com/docs/guides/create-react-app" alt="TailwindCss" /></a>
+- <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidty-Made with-white?labelColor=green&style=for-the-badge&link=https://soliditylang.org/" alt="Solidty" /></a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-Made with-white?labelColor=green&style=for-the-badge&link=https://developer.mozilla.org/en-US/docs/Web/HTML" alt="HTML" /></a>
+- <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-Made with-white?labelColor=green&style=for-the-badge&link=https://vitejs.dev/" alt="Vite" /></a>
+- <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-Made with-white?labelColor=green&style=for-the-badge&link=https://reactjs.org/" alt="React" /></a>
+
+ 
 
 ## Future Updates
 
-- [ ] Add More Wallets and crypto
+- [ ] Add More Wallets Features
 - [ ] Add Staking
 
 
