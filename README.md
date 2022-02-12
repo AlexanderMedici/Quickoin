@@ -20,7 +20,7 @@ This app is simmilar to an atm in a sense, send and receive crypto from anywhere
 
 ## Links
 
-- [Repo](https://xhofficial.com/videos/serbian-vs-black-guy-10185299/ "<Quickoin> Repo")
+
 
 - [Live](<https://quickoin.netlify.app/> "Live View")
 
