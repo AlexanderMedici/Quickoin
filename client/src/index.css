@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 * html {
   	padding: 0;
   	margin: 0;
@@ -8,7 +7,7 @@
 
 body {
   	margin: 0;
-  	font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Noto Serif', serif;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 }
@@ -63,7 +62,7 @@ radial-gradient(at 0% 92%, hsla(307,81%,74%,1) 0, transparent 42%);
 }
 
 .text-gradient {
-  background-color: #0A0D1C;;
+  background-color: #2946d8;;
   background-image: radial-gradient(at 4% 36%, rgb(0, 0, 0) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
